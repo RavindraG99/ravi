@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    padding-top: 8px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section {
+    padding: 24px;
+}
+
+.site-header {
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.food-munch-img {
+    height: 70px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    padding: 8px 20px;
+    font-size: 15px;
+    color: #323f4b;
+}
+
+.nav-links {
+    list-style: none;
+    width: 100%;
+    margin: 12px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+@media(min-width:768px) {
+    .nav-links {
+        width: auto;
+        margin-top: 0;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.banner {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.banner p {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 12px 0 24px;
+
+}
+
+.button-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.custom-button {
+    background-color: #d0b200;
+    color: #ffffff;
+    border: none;
+}
+
+.custom-outline-button {
+    background: transparent;
+    color: #d0b200;
+    border: 1px solid #d0b200;
+}
+
+.custom-button,
+.custom-outline-button {
+    height: 45px;
+    width: 130px;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+
+.why-section-us {
+    background-color: #f9fbfe;
+}
+
+.wcu-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wcu-section h1 {
+    font-size: 25px;
+}
+
+.feature-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    text-align: center;
+    border: 1px solid #e5eaf4;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 300px;
+}
+
+.feature-section h1 {
+    font-size: 19px;
+}
+
+.container {
+    padding: 40px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.menu-card {
+    box-shadow: 2px 2px 4px #00000026;
+    width: 100%;
+    max-width: 260px;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.menu-card h1 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #343f4d;
+}
+
+.menu-card a {
+    color: #d0b200;
+    font-weight: 500;
+}
+
+.menu-header h1 {
+    font-size: 20px;
+}
+
+.two-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-block img {
+    width: 280px;
+}
+
+@media(min-width:768px) {
+    .two-column {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .two-column.reverse {
+        flex-direction: row-reverse;
+    }
+}
+
+.content-block {
+    padding: 20px;
+}
+
+.payments-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.payments-icon img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.follow-us {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.social-icons span {
+    height: 60px;
+    width: 60px;
+    background-color: #faf7e8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    height: 30px;
+    width: 40px;
+}
+
+.site-footer {
+    background-color: #0d2436;
+    padding: 20px 0px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.footer-content p,
+.footer-content address {
+    color: #959ead;
+    font-size: 24px;
+}
+
+.footer-content address {
+    font-style: normal;
+}
+
+.food-munch-logo {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+
+}
