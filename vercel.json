@@ -3,7 +3,7 @@
     "name":"FoodWeb",
     "builds":[
         {
-            "src":"./",
+            "src":"./*",
             "use":"@vercel/static"
         }
     ]
